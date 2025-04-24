@@ -15,7 +15,7 @@ namespace tp1_lab3
     public partial class Form1: Form
     {
         // Cadena de conexión a la base de datos (asume una base Access)
-        private string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Datos\Empleados.accdb";
+        private string connectionString = "Provider = Microsoft.ACE.OLEDB.12.0; Data Source = Empleados.accd";
         private OleDbConnection connection;
         private OleDbDataAdapter adapter;
         private DataTable dataTable;
